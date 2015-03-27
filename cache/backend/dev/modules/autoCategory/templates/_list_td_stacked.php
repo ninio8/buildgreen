@@ -1,0 +1,3 @@
+<td colspan="9">
+  <?php echo __('%%id%% - %%title%% - %%is_visible%% - %%order_n%% - %%img_url%% - %%root_id%% - %%lft%% - %%rgt%% - %%level%%', array('%%id%%' => link_to($buildgreen_category->getId(), 'buildgreen_category_edit', $buildgreen_category), '%%title%%' => $buildgreen_category->getTitle(), '%%is_visible%%' => get_partial('category/list_field_boolean', array('value' => $buildgreen_category->getIsVisible())), '%%order_n%%' => $buildgreen_category->getOrderN(), '%%img_url%%' => $buildgreen_category->getImgUrl(), '%%root_id%%' => $buildgreen_category->getRootId(), '%%lft%%' => $buildgreen_category->getLft(), '%%rgt%%' => $buildgreen_category->getRgt(), '%%level%%' => $buildgreen_category->getLevel()), 'messages') ?>
+</td>

@@ -1,0 +1,29 @@
+<?php
+$condicion = $request->getParameter('id') ? $request->getParameter('id') : 0;
+
+if ($condicion > 0) {
+  $path = $tree = Doctrine_Core::getTable('BuildgreenCategory')->find($condicion);
+} else {
+  $tree = Doctrine_Core::getTable('BuildgreenCategory');
+  $path = null;
+}
+
+$this->buildgreen_categorys = $tree;
+$this->path = $path;
+$this->setTemplate('index');
+
+if ($path) {
+
+  echo '<ul class="breadcrumb">';
+
+  $node = $path->getNode();
+  $ancestors = $node->getAncestors();
+
+  if ($ancestors)
+    foreach ($ancestors AS $ancestor) {
+      echo '<li>' . link_to($ancestor->getTitle(), 'menu/index?id=' . $ancestor->getId()) . '<span class="divider">/</span></li>';
+    }
+
+  echo '</ul>';
+}
+?>

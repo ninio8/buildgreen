@@ -1,0 +1,13 @@
+BuildgreenCategory:
+  home:
+    title: Home
+    is_visible: true
+    order_n: 1
+  about:
+    title: About
+    is_visible: true
+    order_n: 1
+  projects:
+    title: Projects
+    is_visible: true
+    order_n: 1

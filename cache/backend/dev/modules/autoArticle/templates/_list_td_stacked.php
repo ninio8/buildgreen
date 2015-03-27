@@ -1,0 +1,3 @@
+<td colspan="6">
+  <?php echo __('%%id%% - %%category_id%% - %%body%% - %%is_visible%% - %%created_at%% - %%updated_at%%', array('%%id%%' => link_to($buildgreen_article->getId(), 'buildgreen_article_edit', $buildgreen_article), '%%category_id%%' => $buildgreen_article->getCategoryId(), '%%body%%' => $buildgreen_article->getBody(), '%%is_visible%%' => get_partial('article/list_field_boolean', array('value' => $buildgreen_article->getIsVisible())), '%%created_at%%' => false !== strtotime($buildgreen_article->getCreatedAt()) ? format_date($buildgreen_article->getCreatedAt(), "f") : '&nbsp;', '%%updated_at%%' => false !== strtotime($buildgreen_article->getUpdatedAt()) ? format_date($buildgreen_article->getUpdatedAt(), "f") : '&nbsp;'), 'messages') ?>
+</td>

@@ -1,0 +1,13 @@
+BuildgreenArticle:
+  home:
+    BuildgreenCategory: home
+    body: This is ranodom home page
+    is_visible: true
+  about:
+    BuildgreenCategory: about
+    body: This is ranodom about page
+    is_visible: true
+  projects:
+    BuildgreenCategory: projects
+    body: This is ranodom projects page
+    is_visible: true

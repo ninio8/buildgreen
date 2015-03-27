@@ -1,0 +1,16 @@
+BuildgreenCategory:
+  home:
+    title: Home
+    is_visible: true
+    order_n: 1
+    img_url: homedf.gif
+  about:
+    title: About
+    is_visible: true
+    order_n: 1
+    img_url: homedsf.gif
+  projects:
+    title: Projects
+    is_visible: true
+    order_n: 1
+    img_url: homesfs.gif
