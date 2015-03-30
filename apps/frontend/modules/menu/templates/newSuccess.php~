@@ -1,0 +1,16 @@
+<h1>New Buildgreen category</h1>
+
+<?php function echoNode($tree, $parent=null) { ?>
+  <ul class="art-menu">
+  <?php foreach ($tree as $node): ?>
+    <li data-id='<?php echo "parent item". $node['id'] ?>'>
+      <a class="separator" href=#><?php echo $node['title'] ?><span class="l"> </span><span class="r"> </span><span class="l"> </span></a>
+      <?php if (count($node['__children']) > 0): ?>
+        <?php echo echoNode($node['__children'], $node) ?>
+      <?php endif; ?>
+    </li>
+  <?php endforeach; ?>       
+  </ul>
+<?php } ?>
+
+<?php echo echoNode($tree) ?>

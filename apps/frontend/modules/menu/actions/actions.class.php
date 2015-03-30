@@ -8,18 +8,18 @@
  * @author     Your name here
  * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
-class menuActions extends sfActions
+class menuActions extends myActions
 {
 
-  public function executeIndex(sfWebRequest $request)
-  {
-      $this->tree = Doctrine::getTable('BuildgreenCategory')->getMenuTree();
-  }
+
 
   public function executeShow(sfWebRequest $request)
   {
     $this->buildgreen_category = Doctrine_Core::getTable('BuildgreenCategory')->find(array($request->getParameter('id')));
     $this->forward404Unless($this->buildgreen_category);
+    $this->buildgreen_article = Doctrine_Core::getTable('BuildgreenArticle')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->buildgreen_article);
+      $this->tree = Doctrine::getTable('BuildgreenCategory')->getMenuTree();
   }
 
   public function executeNew(sfWebRequest $request)
@@ -75,4 +75,11 @@ class menuActions extends sfActions
       $this->redirect('menu/edit?id='.$buildgreen_category->getId());
     }
   }
+public function executeFooBar(sfWebRequest $request)
+{
+
+    $this->buildgreen_article = Doctrine_Core::getTable('BuildgreenArticle')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->buildgreen_article);
+}
+ 
 }

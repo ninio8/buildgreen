@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * menu actions.
+ *
+ * @package    buildgreen
+ * @subpackage menu
+ * @author     Your name here
+ * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+ */
+class myActions extends sfActions
+{
+  public function executeIndex(sfWebRequest $request)
+  {
+      $this->tree = Doctrine::getTable('BuildgreenCategory')->getMenuTree();
+    $this->buildgreen_article = Doctrine_Core::getTable('BuildgreenArticle')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->buildgreen_article);
+
+  }
+
+}

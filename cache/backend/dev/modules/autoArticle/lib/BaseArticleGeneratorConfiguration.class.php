@@ -92,7 +92,7 @@ abstract class BaseArticleGeneratorConfiguration extends sfModelGeneratorConfigu
 
   public function getListDisplay()
   {
-    return array(  0 => 'id',  1 => 'category_id',  2 => 'body',  3 => 'is_visible',  4 => 'created_at',  5 => 'updated_at',);
+    return array(  0 => 'id',  1 => 'category_id',  3 => 'is_visible',  4 => 'created_at',  5 => 'updated_at',);
   }
 
   public function getFieldsDefault()

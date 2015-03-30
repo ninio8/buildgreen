@@ -13,15 +13,3 @@
 <td class="sf_admin_text sf_admin_list_td_img_url">
   <?php echo $buildgreen_category->getImgUrl() ?>
 </td>
-<td class="sf_admin_text sf_admin_list_td_root_id">
-  <?php echo $buildgreen_category->getRootId() ?>
-</td>
-<td class="sf_admin_text sf_admin_list_td_lft">
-  <?php echo $buildgreen_category->getLft() ?>
-</td>
-<td class="sf_admin_text sf_admin_list_td_rgt">
-  <?php echo $buildgreen_category->getRgt() ?>
-</td>
-<td class="sf_admin_text sf_admin_list_td_level">
-  <?php echo $buildgreen_category->getLevel() ?>
-</td>

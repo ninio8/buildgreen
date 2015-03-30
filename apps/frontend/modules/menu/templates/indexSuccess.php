@@ -33,10 +33,10 @@
   <ul class="art-menu">
   <?php foreach ($tree as $node): ?>
     <li data-id='<?php echo "parent item". $node['id'] ?>'>
-      <a class="separator" href=#><?php echo $node['title'] ?>
+      <a class="separator" href="<?php echo url_for('menu/show?id='.$node['id']) ?>"><?php echo $node['title'] ?><span class="l"> </span><span class="r"> </span><span class="l"> </span></a>
       <?php if (count($node['__children']) > 0): ?>
         <?php echo echoNode($node['__children'], $node) ?>
-      <?php endif; ?></a>
+      <?php endif; ?>
     </li>
   <?php endforeach; ?>       
   </ul>
@@ -52,14 +52,17 @@
 
 
     <div class="art-header-jpeg">
-	
+	 <object data="/images/header.swf" type="application/x-shockwave-flash" width="970" height="336">
+<param name="movie" value="/images/header.swf">
+<param name="wmode" value="transparent">
+</object>
 
 	</div>
 
 </div>
 <div class="logo">
 
-<a href="http://buildgreenuk.co.uk/"><img src="Home_files/spacer.gif" id="logo" alt="Build green UK" width="1" height="1" border="0"></a>
+<a href="http://buildgreenuk.co.uk/"><img src="Home_files/spacer.gif" id="logo" width="1" height="1" border="0"></a>
 
 </div>
 
@@ -132,6 +135,7 @@
 <div class="art-postcontent">
     <!-- article-content -->
 <div class="art-article">
+
 </div><span class="article_separator">&nbsp;</span>
     <!-- /article-content -->
 </div>
@@ -172,7 +176,7 @@
   <div class="art-footer-text">
 
   
-<p>Copyright © 2010 --- Build Green UK - All Rights Reserved.</p>
+<p>Copyright © 2015 --- Build Green UK - All Rights Reserved.</p>
 
   
   </div>
@@ -193,7 +197,7 @@
 
 <div class="cleared"></div>
 
-<p class="art-page-footer"><a href="http://webnotize.me/">Web design</a> by Webnotize ltd.</p>
+<p class="art-page-footer"><a href="http://webnotize.me/">Web design</a> by Taxar ltd.</p>
 
 
 
