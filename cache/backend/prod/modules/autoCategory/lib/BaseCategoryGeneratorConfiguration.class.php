@@ -92,7 +92,7 @@ abstract class BaseCategoryGeneratorConfiguration extends sfModelGeneratorConfig
 
   public function getListDisplay()
   {
-    return array(  0 => 'id',  1 => 'title',  2 => 'is_visible',  3 => 'order_n',  4 => 'img_url',  5 => 'root_id',  6 => 'lft',  7 => 'rgt',  8 => 'level',);
+    return array(  0 => 'id',  1 => 'title',  2 => 'is_visible',  3 => 'order_n',  4 => 'img_url',);
   }
 
   public function getFieldsDefault()

@@ -15,7 +15,9 @@ generator:
       actions: ~
       fields:  ~
       list:
+        hide: [root, lft, rgt, level]
         title: Category Management
+        max_per_page: 10
       filter:  ~
       form:    ~
       edit:

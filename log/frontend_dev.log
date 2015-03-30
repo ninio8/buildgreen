@@ -3578,3 +3578,835 @@ Mar 27 19:24:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Fou
 Mar 27 19:24:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
 Mar 27 19:24:26 symfony [info] {sfWebDebugLogger} Configuration 0.77 ms (5)
 Mar 27 19:24:26 symfony [info] {sfWebDebugLogger} Factories 98.79 ms (1)
+Mar 30 00:07:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:07:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:07:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:07:47 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:07:47 symfony [info] {menuActions} Change template to "CURRENT/index"
+Mar 30 00:07:47 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:07:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 00:07:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.lft = ?) - (1)
+Mar 30 00:07:47 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:07:47 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:07:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:07:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:07:47 symfony [info] {sfWebDebugLogger} Configuration 131.47 ms (9)
+Mar 30 00:07:47 symfony [info] {sfWebDebugLogger} Factories 185.92 ms (1)
+Mar 30 00:07:47 symfony [info] {sfWebDebugLogger} Action "menu/index" 3.57 ms (1)
+Mar 30 00:07:47 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 71.13 ms (1)
+Mar 30 00:07:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 11.55 ms (2)
+Mar 30 00:07:47 symfony [info] {sfWebResponse} Send content (35319 o)
+Mar 30 00:13:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:13:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:13:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:13:40 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:13:40 symfony [info] {menuActions} Change template to "CURRENT/index"
+Mar 30 00:13:40 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:13:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 00:13:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.lft = ?) - (1)
+Mar 30 00:13:40 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:13:40 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:13:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:13:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:13:40 symfony [info] {sfWebDebugLogger} Configuration 1.65 ms (9)
+Mar 30 00:13:40 symfony [info] {sfWebDebugLogger} Factories 10.65 ms (1)
+Mar 30 00:13:40 symfony [info] {sfWebDebugLogger} Action "menu/index" 2.74 ms (1)
+Mar 30 00:13:40 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 11.26 ms (1)
+Mar 30 00:13:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.60 ms (2)
+Mar 30 00:13:40 symfony [info] {sfWebResponse} Send content (35418 o)
+Mar 30 00:13:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:13:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:13:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:13:48 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:13:48 symfony [info] {menuActions} Change template to "CURRENT/index"
+Mar 30 00:13:48 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:13:48 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 00:13:48 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.lft = ?) - (1)
+Mar 30 00:13:48 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:13:48 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:13:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:13:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:13:48 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (9)
+Mar 30 00:13:48 symfony [info] {sfWebDebugLogger} Factories 6.87 ms (1)
+Mar 30 00:13:48 symfony [info] {sfWebDebugLogger} Action "menu/index" 3.68 ms (1)
+Mar 30 00:13:48 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 11.39 ms (1)
+Mar 30 00:13:48 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.02 ms (2)
+Mar 30 00:13:48 symfony [info] {sfWebResponse} Send content (35417 o)
+Mar 30 00:14:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:14:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:14:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:14:06 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:14:06 symfony [info] {menuActions} Change template to "CURRENT/index"
+Mar 30 00:14:06 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:14:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 00:14:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.lft = ?) - (1)
+Mar 30 00:14:06 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:14:06 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:14:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:14:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:14:06 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (9)
+Mar 30 00:14:06 symfony [info] {sfWebDebugLogger} Factories 5.96 ms (1)
+Mar 30 00:14:06 symfony [info] {sfWebDebugLogger} Action "menu/index" 2.98 ms (1)
+Mar 30 00:14:06 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 11.25 ms (1)
+Mar 30 00:14:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.78 ms (2)
+Mar 30 00:14:06 symfony [info] {sfWebResponse} Send content (34662 o)
+Mar 30 00:25:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:25:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:25:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:25:57 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:25:57 symfony [info] {menuActions} Change template to "CURRENT/index"
+Mar 30 00:25:57 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:25:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 00:25:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.lft = ?) - (1)
+Mar 30 00:25:57 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:25:57 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:25:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:25:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:25:57 symfony [info] {sfWebDebugLogger} Configuration 1.34 ms (9)
+Mar 30 00:25:57 symfony [info] {sfWebDebugLogger} Factories 7.92 ms (1)
+Mar 30 00:25:57 symfony [info] {sfWebDebugLogger} Action "menu/index" 4.53 ms (1)
+Mar 30 00:25:57 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 22.97 ms (1)
+Mar 30 00:25:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.64 ms (2)
+Mar 30 00:25:57 symfony [info] {sfWebResponse} Send content (35417 o)
+Mar 30 00:35:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:35:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:35:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:35:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:35:41 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:35:41 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:36:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:36:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:36:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:36:15 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:36:15 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:36:15 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:36:15 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:36:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:36:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:36:15 symfony [info] {sfWebDebugLogger} Configuration 1.40 ms (9)
+Mar 30 00:36:15 symfony [info] {sfWebDebugLogger} Factories 6.68 ms (1)
+Mar 30 00:36:15 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.10 ms (1)
+Mar 30 00:36:15 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.02 ms (1)
+Mar 30 00:36:15 symfony [info] {sfWebResponse} Send content (31028 o)
+Mar 30 00:37:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:37:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:37:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:37:47 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:37:47 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:37:47 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:37:47 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:37:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:37:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:37:47 symfony [info] {sfWebDebugLogger} Configuration 1.35 ms (9)
+Mar 30 00:37:47 symfony [info] {sfWebDebugLogger} Factories 6.36 ms (1)
+Mar 30 00:37:47 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.10 ms (1)
+Mar 30 00:37:47 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 3.49 ms (1)
+Mar 30 00:37:47 symfony [info] {sfWebResponse} Send content (31028 o)
+Mar 30 00:37:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:37:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:37:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:37:49 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:37:49 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:37:49 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:37:49 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:37:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:37:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:37:49 symfony [info] {sfWebDebugLogger} Configuration 1.61 ms (9)
+Mar 30 00:37:49 symfony [info] {sfWebDebugLogger} Factories 5.84 ms (1)
+Mar 30 00:37:49 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.09 ms (1)
+Mar 30 00:37:49 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 3.13 ms (1)
+Mar 30 00:37:49 symfony [info] {sfWebResponse} Send content (31027 o)
+Mar 30 00:37:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:37:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:37:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:37:58 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:37:58 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 00:37:58 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:37:58 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 00:37:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 00:37:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:37:58 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (9)
+Mar 30 00:37:58 symfony [info] {sfWebDebugLogger} Factories 5.56 ms (1)
+Mar 30 00:37:58 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.22 ms (1)
+Mar 30 00:37:58 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 5.29 ms (1)
+Mar 30 00:37:58 symfony [info] {sfWebResponse} Send content (31028 o)
+Mar 30 00:47:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:47:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:47:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:47:19 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:47:19 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 00:47:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 00:47:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:47:19 symfony [info] {sfWebDebugLogger} Configuration 1.49 ms (8)
+Mar 30 00:47:19 symfony [info] {sfWebDebugLogger} Factories 7.49 ms (1)
+Mar 30 00:47:19 symfony [info] {sfWebDebugLogger} Action "menu/index" 86.62 ms (1)
+Mar 30 00:54:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:54:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:54:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:54:39 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:54:39 symfony [err] {Doctrine_Exception} Couldn't find class Model
+Mar 30 00:54:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 00:54:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:54:39 symfony [info] {sfWebDebugLogger} Configuration 133.15 ms (10)
+Mar 30 00:54:39 symfony [info] {sfWebDebugLogger} Factories 9.62 ms (1)
+Mar 30 00:54:39 symfony [info] {sfWebDebugLogger} Action "menu/index" 175.11 ms (1)
+Mar 30 00:55:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:55:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:55:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:55:41 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:55:41 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 00:55:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 00:55:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:55:41 symfony [info] {sfWebDebugLogger} Configuration 1.57 ms (8)
+Mar 30 00:55:41 symfony [info] {sfWebDebugLogger} Factories 7.54 ms (1)
+Mar 30 00:55:41 symfony [info] {sfWebDebugLogger} Action "menu/index" 32.32 ms (1)
+Mar 30 00:58:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:58:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:58:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:58:02 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:58:02 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 00:58:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 00:58:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:58:02 symfony [info] {sfWebDebugLogger} Configuration 1.45 ms (8)
+Mar 30 00:58:02 symfony [info] {sfWebDebugLogger} Factories 6.64 ms (1)
+Mar 30 00:58:02 symfony [info] {sfWebDebugLogger} Action "menu/index" 32.54 ms (1)
+Mar 30 00:58:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:58:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:58:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:58:33 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:58:33 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 00:58:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 00:58:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:58:33 symfony [info] {sfWebDebugLogger} Configuration 1.31 ms (8)
+Mar 30 00:58:33 symfony [info] {sfWebDebugLogger} Factories 6.12 ms (1)
+Mar 30 00:58:33 symfony [info] {sfWebDebugLogger} Action "menu/index" 29.03 ms (1)
+Mar 30 00:59:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:59:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:59:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:59:26 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:59:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 00:59:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft - ()
+Mar 30 00:59:26 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL) ORDER BY b.root_id, b.lft' at line 1. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft"
+Mar 30 00:59:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 00:59:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:59:26 symfony [info] {sfWebDebugLogger} Configuration 2.19 ms (8)
+Mar 30 00:59:26 symfony [info] {sfWebDebugLogger} Factories 8.07 ms (1)
+Mar 30 00:59:26 symfony [info] {sfWebDebugLogger} Action "menu/index" 128.16 ms (1)
+Mar 30 00:59:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.43 ms (1)
+Mar 30 00:59:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 00:59:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 00:59:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 00:59:57 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 00:59:57 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 00:59:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 00:59:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 00:59:57 symfony [info] {sfWebDebugLogger} Configuration 1.16 ms (8)
+Mar 30 00:59:57 symfony [info] {sfWebDebugLogger} Factories 6.08 ms (1)
+Mar 30 00:59:57 symfony [info] {sfWebDebugLogger} Action "menu/index" 27.67 ms (1)
+Mar 30 01:03:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:03:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:03:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:03:31 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:03:31 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:03:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:03:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:03:31 symfony [info] {sfWebDebugLogger} Configuration 1.36 ms (8)
+Mar 30 01:03:31 symfony [info] {sfWebDebugLogger} Factories 9.71 ms (1)
+Mar 30 01:03:31 symfony [info] {sfWebDebugLogger} Action "menu/index" 34.77 ms (1)
+Mar 30 01:04:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:04:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:04:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:04:20 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:04:20 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:04:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:04:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:04:20 symfony [info] {sfWebDebugLogger} Configuration 1.34 ms (8)
+Mar 30 01:04:20 symfony [info] {sfWebDebugLogger} Factories 11.33 ms (1)
+Mar 30 01:04:20 symfony [info] {sfWebDebugLogger} Action "menu/index" 29.79 ms (1)
+Mar 30 01:06:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:06:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:06:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:06:37 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:06:37 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:06:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:06:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:06:37 symfony [info] {sfWebDebugLogger} Configuration 1.88 ms (8)
+Mar 30 01:06:37 symfony [info] {sfWebDebugLogger} Factories 8.56 ms (1)
+Mar 30 01:06:37 symfony [info] {sfWebDebugLogger} Action "menu/index" 33.36 ms (1)
+Mar 30 01:06:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:06:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:06:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:06:39 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:06:39 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:06:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:06:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:06:39 symfony [info] {sfWebDebugLogger} Configuration 1.70 ms (8)
+Mar 30 01:06:39 symfony [info] {sfWebDebugLogger} Factories 11.25 ms (1)
+Mar 30 01:06:39 symfony [info] {sfWebDebugLogger} Action "menu/index" 38.35 ms (1)
+Mar 30 01:07:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:07:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:07:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:07:56 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:07:56 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:07:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:07:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:07:56 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (8)
+Mar 30 01:07:56 symfony [info] {sfWebDebugLogger} Factories 44.73 ms (1)
+Mar 30 01:07:56 symfony [info] {sfWebDebugLogger} Action "menu/index" 72.16 ms (1)
+Mar 30 01:08:27 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:08:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:08:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:08:27 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:08:27 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:08:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:08:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:08:27 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (8)
+Mar 30 01:08:27 symfony [info] {sfWebDebugLogger} Factories 6.48 ms (1)
+Mar 30 01:08:27 symfony [info] {sfWebDebugLogger} Action "menu/index" 30.43 ms (1)
+Mar 30 01:12:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:12:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:12:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:12:35 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:12:35 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:12:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:12:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:12:35 symfony [info] {sfWebDebugLogger} Configuration 1.36 ms (8)
+Mar 30 01:12:35 symfony [info] {sfWebDebugLogger} Factories 6.73 ms (1)
+Mar 30 01:12:35 symfony [info] {sfWebDebugLogger} Action "menu/index" 28.49 ms (1)
+Mar 30 01:13:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:13:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:13:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:13:48 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:13:48 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:13:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:13:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:13:48 symfony [info] {sfWebDebugLogger} Configuration 2.20 ms (8)
+Mar 30 01:13:48 symfony [info] {sfWebDebugLogger} Factories 8.99 ms (1)
+Mar 30 01:13:48 symfony [info] {sfWebDebugLogger} Action "menu/index" 27.86 ms (1)
+Mar 30 01:16:13 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:16:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:16:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:16:13 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:16:13 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:16:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:16:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:16:13 symfony [info] {sfWebDebugLogger} Configuration 1.82 ms (8)
+Mar 30 01:16:13 symfony [info] {sfWebDebugLogger} Factories 7.22 ms (1)
+Mar 30 01:16:13 symfony [info] {sfWebDebugLogger} Action "menu/index" 29.39 ms (1)
+Mar 30 01:23:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 01:23:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 01:23:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 01:23:28 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 01:23:28 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 01:23:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 01:23:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 01:23:28 symfony [info] {sfWebDebugLogger} Configuration 168.02 ms (8)
+Mar 30 01:23:28 symfony [info] {sfWebDebugLogger} Factories 94.16 ms (1)
+Mar 30 01:23:28 symfony [info] {sfWebDebugLogger} Action "menu/index" 30.47 ms (1)
+Mar 30 02:18:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 02:18:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 02:18:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 02:18:22 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 02:18:23 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 02:18:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 02:18:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 02:18:23 symfony [info] {sfWebDebugLogger} Configuration 3.40 ms (8)
+Mar 30 02:18:23 symfony [info] {sfWebDebugLogger} Factories 523.52 ms (1)
+Mar 30 02:18:23 symfony [info] {sfWebDebugLogger} Action "menu/index" 492.11 ms (1)
+Mar 30 02:19:09 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 02:19:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 02:19:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 02:19:09 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 02:19:09 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 02:19:09 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 43 (Undefined variable: tree)
+Mar 30 02:19:09 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 33 (Invalid argument supplied for foreach())
+Mar 30 02:19:09 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 02:19:09 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 02:19:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 02:19:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 02:19:09 symfony [info] {sfWebDebugLogger} Configuration 121.87 ms (10)
+Mar 30 02:19:09 symfony [info] {sfWebDebugLogger} Factories 9.63 ms (1)
+Mar 30 02:19:09 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.10 ms (1)
+Mar 30 02:19:09 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 355.93 ms (1)
+Mar 30 02:19:09 symfony [info] {sfWebResponse} Send content (30827 o)
+Mar 30 03:24:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 03:24:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 03:24:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 03:24:56 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 03:24:56 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 03:24:56 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 32 (Undefined variable: nsm)
+Mar 30 03:26:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 03:26:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 03:26:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 03:26:50 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 03:26:50 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 03:29:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 03:29:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 03:29:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 03:29:32 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 03:29:32 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 04:46:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 04:46:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 04:46:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 04:46:02 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 04:46:02 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 04:46:02 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 31 (Undefined variable: node)
+Mar 30 04:46:02 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 31 (Invalid argument supplied for foreach())
+Mar 30 04:46:02 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 04:46:02 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 04:46:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 04:46:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 04:46:02 symfony [info] {sfWebDebugLogger} Configuration 177.07 ms (9)
+Mar 30 04:46:02 symfony [info] {sfWebDebugLogger} Factories 96.31 ms (1)
+Mar 30 04:46:02 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.20 ms (1)
+Mar 30 04:46:02 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 48.46 ms (1)
+Mar 30 04:46:02 symfony [info] {sfWebResponse} Send content (31332 o)
+Mar 30 04:52:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 04:52:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 04:52:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 04:52:21 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 04:52:21 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 04:52:21 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 32 (array_pop() expects parameter 1 to be array, null given)
+Mar 30 04:52:21 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 04:52:21 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 04:52:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 04:52:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 04:52:21 symfony [info] {sfWebDebugLogger} Configuration 1.59 ms (9)
+Mar 30 04:52:21 symfony [info] {sfWebDebugLogger} Factories 9.54 ms (1)
+Mar 30 04:52:21 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.10 ms (1)
+Mar 30 04:52:21 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.71 ms (1)
+Mar 30 04:52:21 symfony [info] {sfWebResponse} Send content (31200 o)
+Mar 30 05:06:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:07:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:07:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:09:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:11:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:12:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:13:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:14:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:14:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:16:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:22:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:22:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:25:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:25:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:26:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:26:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:26:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:26:35 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:26:35 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/actions/actions.class.php on line 15 (Undefined variable: currentBuildgreenCategory)
+Mar 30 05:28:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:28:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:28:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:28:06 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:28:06 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/actions/actions.class.php on line 15 (Undefined variable: currentBuildgreenCategory)
+Mar 30 05:28:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:28:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:28:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:28:15 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:28:15 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/actions/actions.class.php on line 15 (Undefined variable: currentBuildgreenCategory)
+Mar 30 05:28:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:28:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:28:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:28:26 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:28:26 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 05:28:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 05:28:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:28:26 symfony [info] {sfWebDebugLogger} Configuration 1.47 ms (8)
+Mar 30 05:28:26 symfony [info] {sfWebDebugLogger} Factories 8.16 ms (1)
+Mar 30 05:28:26 symfony [info] {sfWebDebugLogger} Action "menu/index" 334.48 ms (1)
+Mar 30 05:28:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:28:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:28:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:28:49 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:28:49 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 05:28:49 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 32 (array_shift() expects parameter 1 to be array, null given)
+Mar 30 05:28:49 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 34 (array_shift() expects parameter 1 to be array, null given)
+Mar 30 05:28:49 symfony [notice] {sfWebDebugLogger}  Notice at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 35 (Undefined variable: children)
+Mar 30 05:28:49 symfony [warning] {sfWebDebugLogger}  Warning at /home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php on line 35 (Invalid argument supplied for foreach())
+Mar 30 05:28:49 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 05:28:49 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 05:28:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 05:28:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:28:49 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (9)
+Mar 30 05:28:49 symfony [info] {sfWebDebugLogger} Factories 6.72 ms (1)
+Mar 30 05:28:49 symfony [info] {sfWebDebugLogger} Action "menu/index" 0.11 ms (1)
+Mar 30 05:28:49 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 39.63 ms (1)
+Mar 30 05:28:49 symfony [info] {sfWebResponse} Send content (31696 o)
+Mar 30 05:39:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:39:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:39:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:39:10 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:39:10 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 05:39:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 05:39:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:39:10 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (8)
+Mar 30 05:39:10 symfony [info] {sfWebDebugLogger} Factories 14.29 ms (1)
+Mar 30 05:39:10 symfony [info] {sfWebDebugLogger} Action "menu/index" 32.62 ms (1)
+Mar 30 05:44:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:44:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:44:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:44:48 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:44:48 symfony [err] {Doctrine_Table_Exception} Unknown method BuildgreenCategoryTable::getMenuTree
+Mar 30 05:44:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 05:44:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:44:48 symfony [info] {sfWebDebugLogger} Configuration 1.73 ms (8)
+Mar 30 05:44:48 symfony [info] {sfWebDebugLogger} Factories 10.26 ms (1)
+Mar 30 05:44:48 symfony [info] {sfWebDebugLogger} Action "menu/index" 30.26 ms (1)
+Mar 30 05:46:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:46:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:46:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:46:37 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:46:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 05:46:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft - ()
+Mar 30 05:46:37 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL) ORDER BY b.root_id, b.lft' at line 1. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft"
+Mar 30 05:46:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 05:46:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:46:37 symfony [info] {sfWebDebugLogger} Configuration 1.59 ms (8)
+Mar 30 05:46:37 symfony [info] {sfWebDebugLogger} Factories 6.83 ms (1)
+Mar 30 05:46:37 symfony [info] {sfWebDebugLogger} Action "menu/index" 302.90 ms (1)
+Mar 30 05:46:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.89 ms (1)
+Mar 30 05:48:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:48:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:48:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:48:56 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:48:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 05:48:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft - ()
+Mar 30 05:48:56 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL) ORDER BY b.root_id, b.lft' at line 1. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft"
+Mar 30 05:48:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 05:48:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:48:56 symfony [info] {sfWebDebugLogger} Configuration 1.43 ms (8)
+Mar 30 05:48:56 symfony [info] {sfWebDebugLogger} Factories 11.63 ms (1)
+Mar 30 05:48:56 symfony [info] {sfWebDebugLogger} Action "menu/index" 51.58 ms (1)
+Mar 30 05:48:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.39 ms (1)
+Mar 30 05:49:36 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:49:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:49:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:49:36 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:49:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 05:49:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (g.root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 05:49:36 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.root_id' in 'where clause'. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (g.root_id) ORDER BY b.root_id, b.lft"
+Mar 30 05:49:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 05:49:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:49:36 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (8)
+Mar 30 05:49:36 symfony [info] {sfWebDebugLogger} Factories 7.56 ms (1)
+Mar 30 05:49:36 symfony [info] {sfWebDebugLogger} Action "menu/index" 104.48 ms (1)
+Mar 30 05:49:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.41 ms (1)
+Mar 30 05:50:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:50:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:50:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:50:12 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:50:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 05:50:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 05:50:12 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 05:51:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:51:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:51:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:51:43 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:51:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 05:51:43 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 05:51:43 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 05:51:43 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 05:51:43 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 05:51:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 05:51:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:51:43 symfony [info] {sfWebDebugLogger} Configuration 1.55 ms (9)
+Mar 30 05:51:43 symfony [info] {sfWebDebugLogger} Factories 6.95 ms (1)
+Mar 30 05:51:43 symfony [info] {sfWebDebugLogger} Action "menu/index" 13.41 ms (1)
+Mar 30 05:51:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.18 ms (2)
+Mar 30 05:51:43 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 6.83 ms (1)
+Mar 30 05:51:43 symfony [info] {sfWebResponse} Send content (35166 o)
+Mar 30 05:58:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 05:58:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 05:58:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 05:58:25 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 05:58:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 05:58:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 05:58:25 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 05:58:25 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 05:58:25 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 05:58:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 05:58:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 05:58:25 symfony [info] {sfWebDebugLogger} Configuration 2.23 ms (9)
+Mar 30 05:58:25 symfony [info] {sfWebDebugLogger} Factories 7.19 ms (1)
+Mar 30 05:58:25 symfony [info] {sfWebDebugLogger} Action "menu/index" 10.61 ms (1)
+Mar 30 05:58:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.34 ms (2)
+Mar 30 05:58:25 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.81 ms (1)
+Mar 30 05:58:25 symfony [info] {sfWebResponse} Send content (35217 o)
+Mar 30 06:04:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:04:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:04:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:04:21 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:04:21 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:04:21 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:04:21 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:04:21 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:04:21 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:04:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:04:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:04:21 symfony [info] {sfWebDebugLogger} Configuration 1.51 ms (9)
+Mar 30 06:04:21 symfony [info] {sfWebDebugLogger} Factories 7.55 ms (1)
+Mar 30 06:04:21 symfony [info] {sfWebDebugLogger} Action "menu/index" 48.72 ms (1)
+Mar 30 06:04:21 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.67 ms (2)
+Mar 30 06:04:21 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 5.35 ms (1)
+Mar 30 06:04:21 symfony [info] {sfWebResponse} Send content (35303 o)
+Mar 30 06:08:24 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:08:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:08:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:08:24 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:08:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:08:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:08:24 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:08:24 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:08:24 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:08:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:08:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:08:24 symfony [info] {sfWebDebugLogger} Configuration 2.43 ms (9)
+Mar 30 06:08:24 symfony [info] {sfWebDebugLogger} Factories 9.43 ms (1)
+Mar 30 06:08:24 symfony [info] {sfWebDebugLogger} Action "menu/index" 17.13 ms (1)
+Mar 30 06:08:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.88 ms (2)
+Mar 30 06:08:24 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 8.18 ms (1)
+Mar 30 06:08:24 symfony [info] {sfWebResponse} Send content (35425 o)
+Mar 30 06:10:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:10:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:10:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:10:02 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:10:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:10:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:10:02 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:10:02 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:10:02 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:10:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:10:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:10:02 symfony [info] {sfWebDebugLogger} Configuration 2.05 ms (9)
+Mar 30 06:10:02 symfony [info] {sfWebDebugLogger} Factories 12.44 ms (1)
+Mar 30 06:10:02 symfony [info] {sfWebDebugLogger} Action "menu/index" 10.86 ms (1)
+Mar 30 06:10:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.19 ms (2)
+Mar 30 06:10:02 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.98 ms (1)
+Mar 30 06:10:02 symfony [info] {sfWebResponse} Send content (35417 o)
+Mar 30 06:10:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:10:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:10:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:10:55 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:10:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:10:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:10:55 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:10:55 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:10:55 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:10:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:10:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:10:55 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (9)
+Mar 30 06:10:55 symfony [info] {sfWebDebugLogger} Factories 6.30 ms (1)
+Mar 30 06:10:55 symfony [info] {sfWebDebugLogger} Action "menu/index" 9.89 ms (1)
+Mar 30 06:10:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.00 ms (2)
+Mar 30 06:10:55 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 5.02 ms (1)
+Mar 30 06:10:56 symfony [info] {sfWebResponse} Send content (35424 o)
+Mar 30 06:13:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:13:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:13:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:13:07 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:13:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:13:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:13:07 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:13:07 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:13:07 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:13:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:13:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:13:07 symfony [info] {sfWebDebugLogger} Configuration 1.35 ms (9)
+Mar 30 06:13:07 symfony [info] {sfWebDebugLogger} Factories 5.67 ms (1)
+Mar 30 06:13:07 symfony [info] {sfWebDebugLogger} Action "menu/index" 13.45 ms (1)
+Mar 30 06:13:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.47 ms (2)
+Mar 30 06:13:07 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 5.11 ms (1)
+Mar 30 06:13:07 symfony [info] {sfWebResponse} Send content (35417 o)
+Mar 30 06:14:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:14:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:14:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:14:05 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:14:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:14:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:14:05 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:14:05 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:14:05 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:14:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:14:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:14:05 symfony [info] {sfWebDebugLogger} Configuration 1.72 ms (9)
+Mar 30 06:14:05 symfony [info] {sfWebDebugLogger} Factories 6.69 ms (1)
+Mar 30 06:14:05 symfony [info] {sfWebDebugLogger} Action "menu/index" 21.44 ms (1)
+Mar 30 06:14:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.07 ms (2)
+Mar 30 06:14:05 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.32 ms (1)
+Mar 30 06:14:05 symfony [info] {sfWebResponse} Send content (35424 o)
+Mar 30 06:16:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:16:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:16:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:16:20 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:16:20 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:16:20 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:16:20 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:16:20 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:16:20 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:16:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:16:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:16:20 symfony [info] {sfWebDebugLogger} Configuration 1.52 ms (9)
+Mar 30 06:16:20 symfony [info] {sfWebDebugLogger} Factories 6.09 ms (1)
+Mar 30 06:16:20 symfony [info] {sfWebDebugLogger} Action "menu/index" 11.41 ms (1)
+Mar 30 06:16:20 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.49 ms (2)
+Mar 30 06:16:20 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 6.34 ms (1)
+Mar 30 06:16:20 symfony [info] {sfWebResponse} Send content (35425 o)
+Mar 30 06:17:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:17:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:17:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:17:55 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:17:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:17:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:17:55 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL) ORDER BY b.root_id, b.lft' at line 1. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft"
+Mar 30 06:17:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 06:17:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:17:55 symfony [info] {sfWebDebugLogger} Configuration 1.68 ms (8)
+Mar 30 06:17:55 symfony [info] {sfWebDebugLogger} Factories 8.88 ms (1)
+Mar 30 06:17:55 symfony [info] {sfWebDebugLogger} Action "menu/index" 54.28 ms (1)
+Mar 30 06:17:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (1)
+Mar 30 06:19:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:19:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:19:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:19:33 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:19:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:19:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:19:33 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL) ORDER BY b.root_id, b.lft' at line 1. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft"
+Mar 30 06:19:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 06:19:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:19:33 symfony [info] {sfWebDebugLogger} Configuration 2.04 ms (8)
+Mar 30 06:19:33 symfony [info] {sfWebDebugLogger} Factories 9.70 ms (1)
+Mar 30 06:19:33 symfony [info] {sfWebDebugLogger} Action "menu/index" 47.75 ms (1)
+Mar 30 06:19:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.37 ms (1)
+Mar 30 06:20:45 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:20:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:20:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:20:45 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:20:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:20:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:20:45 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL) ORDER BY b.root_id, b.lft' at line 1. Failing Query: "SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (b.root_id NOT NULL) ORDER BY b.root_id, b.lft"
+Mar 30 06:20:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 30 06:20:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:20:45 symfony [info] {sfWebDebugLogger} Configuration 1.26 ms (8)
+Mar 30 06:20:45 symfony [info] {sfWebDebugLogger} Factories 7.72 ms (1)
+Mar 30 06:20:45 symfony [info] {sfWebDebugLogger} Action "menu/index" 62.29 ms (1)
+Mar 30 06:20:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (1)
+Mar 30 06:21:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:21:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:21:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:21:00 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:21:00 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:21:00 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:21:00 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:21:00 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:21:00 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:21:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:21:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:21:00 symfony [info] {sfWebDebugLogger} Configuration 1.51 ms (9)
+Mar 30 06:21:00 symfony [info] {sfWebDebugLogger} Factories 6.12 ms (1)
+Mar 30 06:21:00 symfony [info] {sfWebDebugLogger} Action "menu/index" 13.95 ms (1)
+Mar 30 06:21:00 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.21 ms (2)
+Mar 30 06:21:00 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 6.65 ms (1)
+Mar 30 06:21:00 symfony [info] {sfWebResponse} Send content (35425 o)
+Mar 30 06:22:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:22:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:22:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:22:41 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:22:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:22:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:22:41 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:22:41 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:22:41 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:22:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:22:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:22:41 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+Mar 30 06:22:41 symfony [info] {sfWebDebugLogger} Factories 5.71 ms (1)
+Mar 30 06:22:41 symfony [info] {sfWebDebugLogger} Action "menu/index" 10.33 ms (1)
+Mar 30 06:22:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.49 ms (2)
+Mar 30 06:22:41 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.23 ms (1)
+Mar 30 06:22:41 symfony [info] {sfWebResponse} Send content (35557 o)
+Mar 30 06:26:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:26:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:26:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:26:32 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:26:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:26:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:26:32 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:26:32 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:26:32 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:26:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:26:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:26:32 symfony [info] {sfWebDebugLogger} Configuration 1.39 ms (9)
+Mar 30 06:26:32 symfony [info] {sfWebDebugLogger} Factories 6.24 ms (1)
+Mar 30 06:26:32 symfony [info] {sfWebDebugLogger} Action "menu/index" 20.12 ms (1)
+Mar 30 06:26:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.50 ms (2)
+Mar 30 06:26:32 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 5.09 ms (1)
+Mar 30 06:26:32 symfony [info] {sfWebResponse} Send content (35719 o)
+Mar 30 06:30:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:30:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:30:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:30:16 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:30:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:30:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:30:16 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:30:16 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:30:16 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:30:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:30:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:30:16 symfony [info] {sfWebDebugLogger} Configuration 1.40 ms (9)
+Mar 30 06:30:16 symfony [info] {sfWebDebugLogger} Factories 6.47 ms (1)
+Mar 30 06:30:16 symfony [info] {sfWebDebugLogger} Action "menu/index" 22.75 ms (1)
+Mar 30 06:30:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.25 ms (2)
+Mar 30 06:30:16 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.72 ms (1)
+Mar 30 06:30:17 symfony [info] {sfWebResponse} Send content (36339 o)
+Mar 30 06:31:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:31:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:31:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:31:31 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:31:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:31:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:31:31 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:31:31 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:31:31 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:31:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:31:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:31:31 symfony [info] {sfWebDebugLogger} Configuration 1.80 ms (9)
+Mar 30 06:31:31 symfony [info] {sfWebDebugLogger} Factories 6.73 ms (1)
+Mar 30 06:31:31 symfony [info] {sfWebDebugLogger} Action "menu/index" 10.54 ms (1)
+Mar 30 06:31:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.41 ms (2)
+Mar 30 06:31:31 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 5.39 ms (1)
+Mar 30 06:31:31 symfony [info] {sfWebResponse} Send content (35719 o)
+Mar 30 06:32:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:32:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:32:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:32:08 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:32:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:32:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:32:08 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:32:08 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:32:08 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:32:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:32:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:32:08 symfony [info] {sfWebDebugLogger} Configuration 1.37 ms (9)
+Mar 30 06:32:08 symfony [info] {sfWebDebugLogger} Factories 5.85 ms (1)
+Mar 30 06:32:08 symfony [info] {sfWebDebugLogger} Action "menu/index" 11.79 ms (1)
+Mar 30 06:32:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.08 ms (2)
+Mar 30 06:32:08 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.55 ms (1)
+Mar 30 06:32:08 symfony [info] {sfWebResponse} Send content (35719 o)
+Mar 30 06:32:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'menu',  'action' => 'index',)
+Mar 30 06:32:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 30 06:32:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 30 06:32:58 symfony [info] {menuActions} Call "menuActions->executeIndex()"
+Mar 30 06:32:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 30 06:32:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT b.id AS b__id, b.title AS b__title, b.is_visible AS b__is_visible, b.order_n AS b__order_n, b.img_url AS b__img_url, b.root_id AS b__root_id, b.lft AS b__lft, b.rgt AS b__rgt, b.level AS b__level FROM buildgreen_category b WHERE (root_id) ORDER BY b.root_id, b.lft - ()
+Mar 30 06:32:58 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/modules/menu/templates/indexSuccess.php"
+Mar 30 06:32:58 symfony [info] {sfPHPView} Decorate content with "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:32:58 symfony [info] {sfPHPView} Render "/home/sfprojects/buildgreen/buildgreen/apps/frontend/templates/layout.php"
+Mar 30 06:32:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 30 06:32:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 30 06:32:58 symfony [info] {sfWebDebugLogger} Configuration 1.33 ms (9)
+Mar 30 06:32:58 symfony [info] {sfWebDebugLogger} Factories 6.79 ms (1)
+Mar 30 06:32:58 symfony [info] {sfWebDebugLogger} Action "menu/index" 10.77 ms (1)
+Mar 30 06:32:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.07 ms (2)
+Mar 30 06:32:58 symfony [info] {sfWebDebugLogger} View "Success" for "menu/index" 4.07 ms (1)
+Mar 30 06:32:58 symfony [info] {sfWebResponse} Send content (35718 o)

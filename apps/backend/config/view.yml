@@ -12,9 +12,9 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css, ui-lightness/jquery-ui-1.8.5.custom.css]
+  stylesheets:    [main.css, ui-lightness/jquery-ui-1.8.5.custom.css, jquery.treetable.css]
 
-  javascripts:    [jquery-1.4.3.min.js, jquery-ui/js/jquery-ui-1.8.5.custom.min.js, tiny_mce/tiny_mce.js]
+  javascripts:    [jquery-1.4.3.min.js, jquery-ui/js/jquery-ui-1.8.5.custom.min.js, tiny_mce/tiny_mce.js, jquery.treetable.js]
 
   has_layout:     true
   layout:         layout

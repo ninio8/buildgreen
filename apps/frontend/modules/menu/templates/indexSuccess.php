@@ -28,26 +28,22 @@
 <div class="art-nav">
 	<div class="l"></div>
 	<div class="r"></div>
-<?php
-$var = (is_null($sf_request->getParameter('id'))) ? $buildgreen_categorys->getTree()->fetchRoots() : $buildgreen_categorys->getNode()->getChildren();
-?>
 
-<?php if ($var): foreach ($var as $buildgreen_category): ?>
-  <ul>
-    <li><?php echo $buildgreen_category->getTitle() ?></li>
-      <?php if ($path):
-        $node = $path->getNode();
-  	$ancestors = $node->getAncestors();?>
-      <?php if ($ancestors):foreach ($ancestors AS $ancestor): ?>
-	<li><?php echo $ancestor->getTitle() ?></li>	  
+<?php function echoNode($tree, $parent=null) { ?>
+  <ul class="art-menu">
+  <?php foreach ($tree as $node): ?>
+    <li data-id='<?php echo "parent item". $node['id'] ?>'>
+      <a class="separator" href=#><?php echo $node['title'] ?>
+      <?php if (count($node['__children']) > 0): ?>
+        <?php echo echoNode($node['__children'], $node) ?>
+      <?php endif; ?></a>
+    </li>
+  <?php endforeach; ?>       
   </ul>
-  <?php
-      endforeach;
-     endif;
-    endif;
-  endforeach;
-endif;
-?>
+<?php } ?>
+
+<?php echo echoNode($tree) ?>
+
 </div>
 
 

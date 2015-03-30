@@ -10,20 +10,10 @@
  */
 class menuActions extends sfActions
 {
+
   public function executeIndex(sfWebRequest $request)
   {
-$condicion = $request->getParameter('id') ? $request->getParameter('id') : 0;
-
-if ($condicion > 0) {
-  $path = $tree = Doctrine_Core::getTable('BuildgreenCategory')->find($condicion);
-} else {
-  $tree = Doctrine_Core::getTable('BuildgreenCategory');
-  $path = null;
-}
-
-$this->buildgreen_categorys = $tree;
-$this->path = $path;
-$this->setTemplate('index');
+      $this->tree = Doctrine::getTable('BuildgreenCategory')->getMenuTree();
   }
 
   public function executeShow(sfWebRequest $request)

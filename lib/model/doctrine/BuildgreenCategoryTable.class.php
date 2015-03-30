@@ -16,4 +16,15 @@ class BuildgreenCategoryTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('BuildgreenCategory');
     }
+      public function getMenuTree()
+      {
+
+        $q = $this->createQuery('g')
+          ->orderBy('root_id')
+          ->addOrderBy('lft')
+          ->where('root_id');;
+
+        return $q->execute(array(),  Doctrine_Core::HYDRATE_ARRAY_HIERARCHY);
+      }
+
 }

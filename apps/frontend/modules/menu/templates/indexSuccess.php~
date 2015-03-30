@@ -29,6 +29,21 @@
 	<div class="l"></div>
 	<div class="r"></div>
 
+<?php function echoNode($tree, $parent=null) { ?>
+  <ul class="art-menu">
+  <?php foreach ($tree as $node): ?>
+    <li data-id='<?php echo "parent item". $node['id'] ?>'>
+      <a class="separator" href=#><span class="l"><span class="r"><span class="t"><?php echo $node['title'] ?>
+      <?php if (count($node['__children']) > 0): ?>
+        <?php echo echoNode($node['__children'], $node) ?>
+      <?php endif; ?></span></span></span></a>
+    </li>
+  <?php endforeach; ?>       
+  </ul>
+<?php } ?>
+
+<?php echo echoNode($tree) ?>
+
 </div>
 
 

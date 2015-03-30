@@ -15,6 +15,7 @@ generator:
       actions: ~
       fields:  ~
       list:
+        hide: [body]
         title: Articles Management
         max_per_page: 10
       filter:  ~

@@ -4,9 +4,6 @@
 <td class="sf_admin_foreignkey sf_admin_list_td_category_id">
   <?php echo $buildgreen_article->getCategoryId() ?>
 </td>
-<td class="sf_admin_text sf_admin_list_td_body">
-  <?php echo $buildgreen_article->getBody() ?>
-</td>
 <td class="sf_admin_boolean sf_admin_list_td_is_visible">
   <?php echo get_partial('article/list_field_boolean', array('value' => $buildgreen_article->getIsVisible())) ?>
 </td>

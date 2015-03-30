@@ -14,8 +14,13 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
+      list:
+        hide: [body]
+        title: Articles Managementes
+        max_per_page: 10
       filter:  ~
       form:    ~
-      edit:    ~
-      new:     ~
+      edit:
+        title: Editing Article "%%id%%"
+      new:
+        title: New Article

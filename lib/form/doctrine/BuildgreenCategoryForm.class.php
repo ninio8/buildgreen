@@ -45,6 +45,21 @@ class BuildgreenCategoryForm extends BaseBuildgreenCategoryForm
       'node'     => $this->getObject(),
     )));
     $this->getValidator('parent')->setMessage('node', 'A category cannot be made a descendent of itself.');
+
+
+ $this->widgetSchema['img_url'] = new sfWidgetFormInputFile();
+
+    $this->validatorSchema['img_url'] = new sfValidatorFile(array(
+
+        'path'       => sfConfig::get('sf_upload_dir').'/'.sfConfig::get('sf_media_upload_dir'),
+
+        'mime_types' => 'web_images'
+
+        )
+
+    );
+
+
   }
 
 public function doSave($con = null)

@@ -12,6 +12,7 @@ class BuildgreenArticleForm extends BaseBuildgreenArticleForm
 {
   public function configure()
   {
-  $this->widgetSchema['body'] = new sfWidgetFormTextareaTinyMCE(); 
+  $this->widgetSchema['body'] = new sfWidgetFormTextareaTinyMCE();
+  unset($this['created_at'],$this['updated_at']);
   }
 }
