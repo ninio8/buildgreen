@@ -22,9 +22,17 @@ class BuildgreenCategoryTable extends Doctrine_Table
         $q = $this->createQuery('g')
           ->orderBy('root_id')
           ->addOrderBy('lft')
-          ->where('root_id');;
+          ->where('root_id');
 
         return $q->execute(array(),  Doctrine_Core::HYDRATE_ARRAY_HIERARCHY);
       }
+  public function getWithArticles()
+  {
+    $k = $this->createQuery('c')
+      ->leftJoin('c.BuildgreenArticle j');
+ 
+    return $k->execute();
+  }
+
 
 }

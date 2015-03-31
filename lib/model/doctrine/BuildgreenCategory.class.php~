@@ -12,18 +12,14 @@
  */
 class BuildgreenCategory extends BaseBuildgreenCategory
 {
- protected $path = false;
+public function getWithArticles()
+{
+  $k = Doctrine_Query::create()
+    ->from('BuildgreenArticle j')
+    ->where('j.category_id = ?', $this->getId());
+ 
+  return Doctrine_Core::getTable('BuildgreenArticle')->getWithArticles($k);
+}
 
-  public function __toString()
-  {
-    return $this->getOrder_n();
-  }
-  public function getPath($parent = null)
-  {
-    if (!$this->path)
-    {
-      $this->path = join('/', null !== $parent ? array($parent->getPath(), $this) : array($this));
-    }
-    return $this->path;
-  } 
+
 }

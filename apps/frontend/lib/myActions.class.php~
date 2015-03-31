@@ -10,11 +10,9 @@
  */
 class myActions extends sfActions
 {
-  public function executeIndex(sfWebRequest $request)
+  public function preExecute(sfWebRequest $request)
   {
       $this->tree = Doctrine::getTable('BuildgreenCategory')->getMenuTree();
-    $this->buildgreen_article = Doctrine_Core::getTable('BuildgreenArticle')->find(array($request->getParameter('id')));
-    $this->forward404Unless($this->buildgreen_article);
 
   }
 

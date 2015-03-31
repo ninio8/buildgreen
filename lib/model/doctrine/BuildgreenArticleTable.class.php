@@ -16,4 +16,5 @@ class BuildgreenArticleTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('BuildgreenArticle');
     }
+
 }

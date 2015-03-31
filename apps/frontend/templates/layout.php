@@ -9,6 +9,8 @@
     <?php include_javascripts() ?>
   </head>
   <body>
+
+<?php include_partial('nav', array('tree' => Doctrine::getTable('BuildgreenCategory')->getMenuTree())) ?>
     <?php echo $sf_content ?>
   </body>
 </html>

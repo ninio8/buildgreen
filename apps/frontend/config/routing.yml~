@@ -4,13 +4,19 @@
 # default rules
 homepage:
   url:   /
-  param: { module: default, action: index }
+  param: { module: menu, action: index }
 
 # generic rules
 # please, remove them by adding more specific rules
+menu_show_user:
+  url:   /menu//:id/
+  param: { module: menu, action: show }
+  options:  { model: BuildgreenArticle, type: object }
+
 default_index:
   url:   /:module
   param: { action: index }
 
 default:
   url:   /:module/:action/*
+
